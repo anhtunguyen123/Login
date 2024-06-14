@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body{background: url('https://img.lovepik.com/background/20211022/medium/lovepik-blue-annual-event-sign-in-background-image_605805352.jpg');
+    background-size: cover;
+    background-position-y: -80px;
+    font-size: 16px;}
+#div0{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	font-size: 25px;
+	color: #f5f5f5;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.div1{
+	border-bottom: 1px solid #fff;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	display: flex;
+}
+.div1 i{
+	color: #fff;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts-config PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+    "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+
+	<form-beans>
+		<form-bean name="Login" type="LoginClass.model.Login" />
+	</form-beans>
+
+	<action-mappings>
+		<action path="/Login" type="Login.Controller.LoginAction"
+		 name="Login" parameter = "Login">
+    		<forward name="success" path="/home.jsp"/>
+    		<forward name="error" path="/loginResult.jsp"/>
+		</action>
+		<action path="/dangKi" type="Login.Controller.LoginAction"
+		 name="Login" parameter = "dangki">
+    		<forward name="error" path="/home.jsp"/>
+    		<forward name="success" path="/loginResult.jsp"/>
+		</action>
+	</action-mappings>
+	
+</struts-config>	

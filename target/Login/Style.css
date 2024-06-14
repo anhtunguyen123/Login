@@ -1,0 +1,9 @@
+#div0 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px black solid;
+	width:400px;
+    height: 200px;
+     transform: translate(140%, 50%);
+}
